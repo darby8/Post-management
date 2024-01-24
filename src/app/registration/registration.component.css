@@ -1,0 +1,52 @@
+.container {
+    /* background: #93A5CF → #E4EfE9; */
+    height: 98vh;
+    background-image: linear-gradient(#93A5CF, #E4EfE9);
+}
+
+.form {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    height: 600px;
+    background-color: white;
+    top: 124px;
+    border-radius: 20px;
+}
+
+label {
+    font-family: 'Manrope', sans-serif;
+    color: #66696A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.28px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0.8px solid #C4C9CC;
+    padding-left: 10px;
+    outline: none;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    border-radius: 64px;
+    position: relative;
+    top: 20px;
+    div{
+        margin-bottom: 20px;
+    }
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

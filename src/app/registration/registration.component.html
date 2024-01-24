@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="form">
+        <form [formGroup]="registerForm" (ngSubmit)="register()">
+            <div class="item">
+            <h1>Registration Form</h1>
+            <div>
+                <label for="Username">Username</label><br>
+                <input type="text" formControlName="Username">
+            </div>
+            <div>
+                <label for="Password">Password</label><br>
+                <input type="text" formControlName="Password">
+            </div>
+            <div>
+                <label for="Email">Email</label><br>
+                <input type="email" formControlName="Email">
+            </div>
+            <div>
+                <label for="Mobile No.">Mobile no.</label><br>
+                <input type="number" formControlName="Moblie">
+            </div>
+            <div style="margin-left: -200px;">
+                <label for="Gender">Gender</label><br>
+                  <input type="radio" style="width: 30px; height: 15px;"  name="Gender" formControlName="Gender" value="Male">
+                  <label for="Male" >Male</label><br>
+                  <input type="radio"  style="width: 30px; height: 15px;" formControlName="Gender" name="Gender" value="Female">
+                  <label for="Female">Female</label><br>
+            </div>
+            <button type="submit" >Submit</button>
+           <p>If you already have account   <a [routerLink]="['/login']">Login here</a></p>
+
+            </div>
+            <!-- <input type="submit" value="submit" style="width: 150px; background-color: ;" placeholder="submit"> -->
+        </form>
+    </div>
+</div>

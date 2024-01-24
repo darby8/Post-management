@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+button {
+    width: 119px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #0067B8;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
